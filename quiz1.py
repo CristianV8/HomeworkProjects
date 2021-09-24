@@ -15,7 +15,7 @@ print(str(prod))
 if(sum==prod):
     print("Your sum and product are equal!")
 # otherwise ask for two more numbers
-else:
+while(sum!=prod):
     print("Try again!")
     num1 = input("What is your first number?")
     num2 = input("What is your second number?")
@@ -23,3 +23,4 @@ else:
     print(str(sum))
     prod = (int(num1) * int(num2))
     print(str(prod))
+print("Congrats - your product and sum are finally equal!")
